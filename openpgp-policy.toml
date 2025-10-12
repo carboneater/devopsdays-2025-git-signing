@@ -1,0 +1,43 @@
+version = 0
+commit_goodlist = []
+
+[authorization."Gabriel Fournier <gab@gfournier.ca>"]
+sign_commit = true
+sign_tag = true
+sign_archive = true
+add_user = true
+retire_user = true
+audit = true
+keyring = """
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: 9704 A882 F059 E308 4D82  964F 8F57 0C8B 1C01 FCC8
+Comment: Gabriel Fournier (Alpha.MSI) <gab@gfournier.ca>
+
+xsFNBGQ/XB4BEADIWmQWfMATAMPZSN1dBsolg/VFlnLncVGK72hm2qJLm+3OksOb
+K5/CQWsVqZvluNE7InX2bpSj24h96Ag+gQJ7FANvIMR8BfpvYBflqI9WJm/Aj8Cw
+YrZrTFOeD8uWN3FUnqRAyIzxum2CG/8BTdLCYuyOhLjmkJtZEzwDdvbuZUuFmqrr
+1sz4hSxuixSO4XhdqjTAcaOZvX1aa2mZ4QtCCuo11ejPGiLuPiNV9nKuXJPtJKEd
+AyARQp+0ETLKd+XH7CTVwsfVlLiH51htrMGZ7Y0UCstDHvZkeoY7y/2s54SLKedP
+HdYnzdMG22JznyVHN53sviJWHwsdBFJiX9BkdCoqWfg/XM8M/71MpxVB3EixaS44
+F/cMkEYfvmhG2NnTPuTUHDqk+xOO8ButPrXn516H4B1/MrlLujGtYwC/4DWPja2R
+S2DhbEV4dFJ4TkE+vPXl7QIDnwynsr2cLHxnU/h0zvC1LesoRqgywy3yXdqUl+pP
+VG/CqUu9fJupKOU1v6IQOj9spk1M+TRhxWfayoFSQcd3ab14jn3opvtNZCG9knCu
+KWXo5z0NV6m5JEdmUKfv/Bm8r5rkGzQP7rHObPfCmU/X4n6ZhOw41ss7gmrMncxk
+8Bczf6NXWwbq6m51M6LtO1ywCPwSr8hnqlVmKnBIZXtU7Typf2ReNblmIQARAQAB
+zS9HYWJyaWVsIEZvdXJuaWVyIChBbHBoYS5NU0kpIDxnYWJAZ2ZvdXJuaWVyLmNh
+PsLBjgQTAQoAOBYhBJcEqILwWeMITYKWT49XDIscAfzIBQJkP1weAhsDBQsJCAcC
+BhUKCQgLAgQWAgMBAh4BAheAAAoJEI9XDIscAfzISGkQAKlCLvKy3RuUjb8LJbfs
+cqR0WvJZadLlHzXVrlB0fkVDgoVb9/fVqRNHl0fNdrBdzfHxMX0cXJ3+po7Rp8Qm
+uz9yJ+GCuEg/sQ8rQEDISo8kTj6u3qDaGvCdApIRc6dp+2g6DMkGZX4d6r3MGVcx
+m+OK8cz2JuGhXdQ6g/kyd6T1UNAH9crsJ1JXan9gJ3YGgeyDq9pz9NdE3NEEw37n
+6AHFsi8AsYS+ekkihaA+PWzjsakO/Z3KDrmE8dvp8J5tuQ0kS/n7U+0c78qxXf8P
+cxJqYFX6TuFKLp4MjjF647hX/QX61JyOyag8r9Mhxms7mM4wq0J/Zr/RKI7U80Id
+FbjmMSomUYidKrCdXuoTpg/6QCVAadFtQreOHJgcxPoZ8hsuA3Xu+In37kRiWDQ5
+501e2oLhLRjE1aOTEN5QIr9a/S0w/vbQrSydu/v9VuknmE+FbH597ePcytQh1sVN
+eXIquU3AUYFYQ7koWyI76boijW2ywQ2Fc/8AYR49cziVVSEOJ7KVWjuzqGNF8vxE
+08Uzu1CPU5JEAu3FrH3BpfIyW/j/zxQsRbO7mm/Jrar+xHMXoX2XNLwYeP2/9ZHj
+GImeVTtgALTjYiSfUtFoY0hhTyIQJDqtx8fOw5i0B3TwME9KSKP6kICYtTKiDwTU
+ToP+v3yQZUeREnizQ5N3Fy40
+=lDx5
+-----END PGP PUBLIC KEY BLOCK-----
+"""
