@@ -74,3 +74,10 @@ level: 2
 > $ git add openpgp-policy.toml  
 > $ git commit -m 'Add signing policy.'  
 > $ git push origin signing-policy  
+
+---
+level: 3
+---
+
+# [sequoia-pgp/authenticate-commits](https://github.com/sequoia-pgp/authenticate-commits)
+
