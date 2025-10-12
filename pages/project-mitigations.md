@@ -81,3 +81,4 @@ level: 3
 
 # [sequoia-pgp/authenticate-commits](https://github.com/sequoia-pgp/authenticate-commits)
 
+<<< @/.github/workflows/auth-commits.yml

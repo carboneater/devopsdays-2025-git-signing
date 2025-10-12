@@ -43,7 +43,36 @@ Non-Repudiation: There is exactly one author and we can positively identify them
 level: 2
 ---
 
-# Generating a Key
+# [Generating a Key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
+
+> $ gpg --default-new-key-algo ed25519 --gen-key
+
+Answer all the prompts
+
+``` {|2}
+pub   ed25519 2025-10-12 [SC] [expires: 2028-10-11]
+      9D38D37552251C5D354F5FC5A04163ECF659F045
+uid                      Gabriel Fournier <gab@demo.dod>
+```
+
+<v-click>
+
+> $ gpg --armor --export 9D38D37552251C5D354F5FC5A04163ECF659F045
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEaOvShxYJKwYBBAHaRw8BAQdAClN956LDwVfUUeukMiSY72YBDYtgJaY1cLP7
+vnpdney0H0dhYnJpZWwgRm91cm5pZXIgPGdhYkBkZW1vLmRvZD6ImQQTFgoAQRYh
+BJ0403VSJRxdNU9fxaBBY+z2WfBFBQJo69KHAhsDBQkFo5qABQsJCAcCAiICBhUK
+CQgLAgQWAgMBAh4HAheAAAoJEKBBY+z2WfBFAbQBAIvzJjB6EiMfwmHctwXzEmLP
+ril30ZFjew8ZchIF2yD7AQDp2FXzrbnSN8R5tShWJiy+3OETH6tyZLkPWNcP3AZ+
+CA==
+=feSD
+-----END PGP PUBLIC KEY BLOCK-----
+```
+
+</v-click>
 
 ---
 level: 2
@@ -52,7 +81,7 @@ level: 2
 # Configuring Git to sign commits
 
 ``` {1|2|3|4|}
-git config --global user.signingKey 9704A882F059E3084D82964F8F570C8B1C01FCC8
+git config --global user.signingKey 9D38D37552251C5D354F5FC5A04163ECF659F045
 git config --global commit.gpgsign true
 git config --global tag.gpgsign true
 git config --global push.signing if-asked
