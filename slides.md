@@ -156,4 +156,6 @@ layout: end
 
 # Questions?
 
-<PoweredBySlidev/>
+<center><PoweredBySlidev/></center>
+
+Slides: https://github.com/carboneater/devopsdays-2025-git-signing
