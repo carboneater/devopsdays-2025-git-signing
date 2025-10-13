@@ -23,15 +23,17 @@ level: 2
 
 ::left::
 
-![Carney's Signature](/100-front.jpg)
+## Triple Guarantees
 
-Source: [Bank of Canada](https://www.bankofcanada.ca/banknotes/bank-note-series/frontiers/100-polymer-note/)
+- Integrity
+- Authentication
+- Non-Repudiation
 
 ::right::
 
-- Authentication
-- Integrity
-- Non-Repudiation
+![Carney's Signature](/100-front.jpg)
+
+Source: [Bank of Canada](https://www.bankofcanada.ca/banknotes/bank-note-series/frontiers/100-polymer-note/)
 
 <!--
 Authentication: The Author is who they claim to be
@@ -45,34 +47,15 @@ level: 2
 
 # [Generating a Key](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
 
-> $ gpg --default-new-key-algo ed25519 --gen-key
+> $ gpg --full-generate-key
 
 Answer all the prompts
 
 ``` {|2}
-pub   ed25519 2025-10-12 [SC] [expires: 2028-10-11]
+pub   ed25519 2025-10-12 [SC]
       9D38D37552251C5D354F5FC5A04163ECF659F045
 uid                      Gabriel Fournier <gab@demo.dod>
 ```
-
-<v-click>
-
-> $ gpg --armor --export 9D38D37552251C5D354F5FC5A04163ECF659F045
-
-```
------BEGIN PGP PUBLIC KEY BLOCK-----
-
-mDMEaOvShxYJKwYBBAHaRw8BAQdAClN956LDwVfUUeukMiSY72YBDYtgJaY1cLP7
-vnpdney0H0dhYnJpZWwgRm91cm5pZXIgPGdhYkBkZW1vLmRvZD6ImQQTFgoAQRYh
-BJ0403VSJRxdNU9fxaBBY+z2WfBFBQJo69KHAhsDBQkFo5qABQsJCAcCAiICBhUK
-CQgLAgQWAgMBAh4HAheAAAoJEKBBY+z2WfBFAbQBAIvzJjB6EiMfwmHctwXzEmLP
-ril30ZFjew8ZchIF2yD7AQDp2FXzrbnSN8R5tShWJiy+3OETH6tyZLkPWNcP3AZ+
-CA==
-=feSD
------END PGP PUBLIC KEY BLOCK-----
-```
-
-</v-click>
 
 ---
 level: 2
@@ -94,6 +77,21 @@ level: 2
 
 # [Publish your Public Key to github](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account#adding-a-gpg-key)
 
+> $ gpg --armor --export 9D38D37552251C5D354F5FC5A04163ECF659F045
+
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEaOvShxYJKwYBBAHaRw8BAQdAClN956LDwVfUUeukMiSY72YBDYtgJaY1cLP7
+vnpdney0H0dhYnJpZWwgRm91cm5pZXIgPGdhYkBkZW1vLmRvZD6ImQQTFgoAQRYh
+BJ0403VSJRxdNU9fxaBBY+z2WfBFBQJo69KHAhsDBQkFo5qABQsJCAcCAiICBhUK
+CQgLAgQWAgMBAh4HAheAAAoJEKBBY+z2WfBFAbQBAIvzJjB6EiMfwmHctwXzEmLP
+ril30ZFjew8ZchIF2yD7AQDp2FXzrbnSN8R5tShWJiy+3OETH6tyZLkPWNcP3AZ+
+CA==
+=feSD
+-----END PGP PUBLIC KEY BLOCK-----
+```
+
 ---
 layout: center
 level: 2
@@ -110,9 +108,9 @@ level: 2
 
 # [Enable Vigilant Mode](https://docs.github.com/en/authentication/managing-commit-signature-verification/displaying-verification-statuses-for-all-of-your-commits)
 
-| Default | Vigilant | Note|
-|---------|----------|-----|
-| Verified | Verified | |
-| Verified | Partially Verified | |
-| Unverified | Unverified | |
-| (Nothing)  | Unverified | |
+| Default | Vigilant |
+|---------|----------|
+| Verified | Verified |
+| Verified | Partially Verified |
+| Unverified | Unverified |
+| (Nothing)  | Unverified |

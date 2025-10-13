@@ -21,7 +21,7 @@ mdc: true
 
 # Git Commit Signing
 
-A Self-Defense Practice that doesn't imply MAD?
+## Or how I got away with crashing prod after being laid off
 
 ---
 hideInToc: true
@@ -78,12 +78,14 @@ hideInToc: true
 <Toc minDepth="1" maxDepth="1" />
 
 ---
+hideInToc: true
+---
 
 # $ whoami
 
 - Gabriel Fournier
 - 15 years DevSecOps
-- Sign All My Commits Since ~2021
+- Sign All My Commits Since ~2020
 - Laid off in 2023
     - Crashed Prod on the day I was laid off
         - Accidentally!
@@ -130,9 +132,20 @@ src: ./pages/project-mitigations.md
 ---
 
 ---
-image: /silver-bullet.jpg
-layout: image
+src: ./pages/current-attacks.md
 ---
+
+---
+
+# Closing thoughts
+
+I sign all my commits.
+
+And so should you.
+
+- Easy
+- Mostly Transparent
+- `git` is becoming an attack vector
 
 ---
 hideInToc: true
@@ -144,48 +157,3 @@ layout: end
 # Questions?
 
 <PoweredBySlidev/>
-
----
-hideInToc: true
----
-
-# Supply Chain Attacks
-
-```mermaid
-flowchart LR
-
-Code@{label: This Code, shape: docs}
-subgraph This Computer
-  P[This project]
-end
-
-Code --> P
-N@{label: NPM Packages, shape: docs} --> P
-```
-
----
-
-# Supply Chain Attacks
-
-```mermaid
-flowchart LR
-
-Code@{label: This Code, shape: docs}
-subgraph This Computer
-  P[This project]
-end
-
-Code --> P
-N@{label: NPM Packages, shape: docs} -->|☠️| P
-
-classDef compromised border: #F00 2px dashed;
-class compromised N,P;
-```
-
----
-hideInToc: true
----
-
-# What About Insider Threat?
-
-![AMZN Layoffs](./images/AMZN-Layoffs.jpeg)

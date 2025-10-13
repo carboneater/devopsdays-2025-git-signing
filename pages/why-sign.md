@@ -153,6 +153,7 @@ Sprinkle in a dash of malice?
 
 ---
 layout: section
+level: 2
 ---
 
 # [Hanlon's Razor](https://en.wikipedia.org/wiki/Hanlon's_razor)

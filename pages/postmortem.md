@@ -1,6 +1,7 @@
 ---
 layout: two-cols-header
 level: 2
+transition: none
 ---
 
 # Incident Summary (How I Crashed Prod)
@@ -56,7 +57,7 @@ gab:
 - SaltStack Updated Docker from 19 to 20
   - A config key was changed
   - Sentry didn't restart
-    - Our services wait for Sentry
+    - Our services wait for Sentry when starting
 
 </v-click>
 <v-click>
@@ -65,14 +66,6 @@ gab:
 - Update Docker Config
   - Sentry Restarts
     - All Services Bootstrap
-
-</v-click>
-
-::bottom::
-
-<v-click>
-
-Root Cause: We decided two years prior that a service shouldn't report as healthy until it connects to Sentry to be ready to report errors
 
 </v-click>
 
@@ -86,6 +79,8 @@ transition: none
 ## Courts hold Crypto Signatures as Valid
 
 ::left::
+
+<v-click>
 
 ### Expose malice from
 
@@ -103,17 +98,27 @@ gab:
 +    purge: true
 ```
 
+</v-click>
+
 ::right::
+
+<v-click>
 
 ### Find a shortcoming in GPG
 #### that invalidates the signature
 
 Please Disclose Responsibly!
 
+</v-click>
+
 ::bottom::
+
+<v-click>
 
 Ruled non-sabotage by all involved
 
 Contributing factors:
 - Helped Identify & Resolve the Incident
 - Wrote the Incident Report
+
+</v-click>

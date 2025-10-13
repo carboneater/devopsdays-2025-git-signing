@@ -4,11 +4,21 @@ layout: section
 transition: none
 ---
 
-# But, wait!!!
+# Cool Beans
 
 ## All your mitigations are positive validations
 
 ## They don't reject unsigned stuff
+
+---
+hideInToc: true
+---
+
+# Remember when *users* had to validate HTTPS?
+
+Source: https://blog.mozilla.org/security/files/2019/10/identity_icons.png
+
+![HTTPS Lock Icons](/https-lock-icons.png)
 
 ---
 layout: section
@@ -39,7 +49,7 @@ level: 2
 
 GitHub has an internal key you don't control!
 
-![GH Internal Signatures](/GH-signature.png)
+![GH Internal Signatures](/gh-merge.png)
 
 ---
 layout: two-cols-header
@@ -70,7 +80,7 @@ level: 2
 
 > $ sudo apt install sq-git  
 > $ sq-git init  
-> $ sq-git policy authorize  --project-maintainer "Gabriel Fournier <gab@gfournier.ca>" 8F570C8B1C01FCC8  
+> $ sq-git policy authorize  --project-maintainer "Gabriel Fournier <gab@devopsdays.mtl>" 8F570C8B1C01FCC8  
 > $ git add openpgp-policy.toml  
 > $ git commit -m 'Add signing policy.'  
 > $ git push origin signing-policy  
