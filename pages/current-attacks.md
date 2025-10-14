@@ -63,7 +63,7 @@ Dev -->|Code| GH
 P-->|☠️Code☠️| GH
 P -.-x R
 ```
-Expect
+Attackers favor softer targets
 
 <v-click>
 

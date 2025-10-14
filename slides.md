@@ -61,9 +61,6 @@ Who fires on the spot?
 
 How do you defend yourself?
 
-</v-click>
-
-<v-click>
 
 How do you prove Git is _wrong_ ?
 

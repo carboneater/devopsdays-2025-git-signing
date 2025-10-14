@@ -158,8 +158,4 @@ level: 2
 
 # [Hanlon's Razor](https://en.wikipedia.org/wiki/Hanlon's_razor)
 
-<v-click>
-
 #### Never attribute to malice that which is adequately explained by stupidity
-
-</v-click>
