@@ -25,6 +25,51 @@ mdc: true
 
 ---
 hideInToc: true
+---
+
+# $ whoami
+
+- Gabriel Fournier
+- 15 years DevSecOps
+- Sign All My Commits Since ~2020
+- Laid off in 2023
+    - Crashed Prod on the day I was laid off
+        - Accidentally!
+
+---
+hideInToc: true
+---
+
+# ToC
+
+<Toc minDepth="1" maxDepth="1" />
+
+---
+hideInToc: true
+layout: center
+---
+
+# Disclaimers
+
+## I am not a lawyer
+
+## I am not your lawyer
+
+## This is  Not Legal Advice
+
+---
+hideInToc: true
+layout: center
+---
+
+# Disclaimers
+
+## Git Impersonation Attacks are shown as an educational aid only.
+
+## Please replicate demos **responsibly**
+
+---
+hideInToc: true
 layout: two-cols-header
 ---
 
@@ -65,51 +110,6 @@ How do you defend yourself?
 How do you prove Git is _wrong_ ?
 
 </v-click>
-
----
-hideInToc: true
----
-
-# ToC
-
-<Toc minDepth="1" maxDepth="1" />
-
----
-hideInToc: true
----
-
-# $ whoami
-
-- Gabriel Fournier
-- 15 years DevSecOps
-- Sign All My Commits Since ~2020
-- Laid off in 2023
-    - Crashed Prod on the day I was laid off
-        - Accidentally!
-
----
-hideInToc: true
-layout: center
----
-
-# Disclaimers
-
-## I am not a lawyer
-
-## I am not your lawyer
-
-## This is  Not Legal Advice
-
----
-hideInToc: true
-layout: center
----
-
-# Disclaimers
-
-## Git Impersonation Attacks are shown as an educational aid only.
-
-## Please replicate demos **responsibly**
 
 ---
 src: ./pages/why-sign.md

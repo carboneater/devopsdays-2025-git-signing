@@ -52,11 +52,21 @@ GitHub has an internal key you don't control!
 ![GH Internal Signatures](/gh-merge.png)
 
 ---
+level: 3
+---
+
+# Signature isn't enough (bis)
+
+GitHub has an internal key you don't control!
+
+![GH Internal Signatures](/GH-signature.png)
+
+---
 layout: two-cols-header
 level: 2
 ---
 
-# Shai-Hulud Worm
+# Known Attack Against Git: Shai-Hulud Worm
 
 ::left::
 

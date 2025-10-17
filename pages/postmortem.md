@@ -33,6 +33,7 @@ gab:
 ````
 <v-click>
 
+- Commit & Sign
 - Salt Apply
 
 </v-click>

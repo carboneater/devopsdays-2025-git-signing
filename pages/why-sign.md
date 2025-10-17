@@ -5,7 +5,13 @@ transition: none
 
 # What's my issue with git?
 
+## Authentication is all based on Honor System
+
+<v-click>
+
 ## Git Push AuthN !== Git AuthN
+
+</v-click>
 
 ---
 layout: two-cols-header
