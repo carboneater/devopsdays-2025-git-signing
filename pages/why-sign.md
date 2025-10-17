@@ -5,7 +5,13 @@ transition: none
 
 # What's my issue with git?
 
+## Authentication is all based on Honor System
+
+<v-click>
+
 ## Git Push AuthN !== Git AuthN
+
+</v-click>
 
 ---
 layout: two-cols-header
@@ -153,12 +159,9 @@ Sprinkle in a dash of malice?
 
 ---
 layout: section
+level: 2
 ---
 
 # [Hanlon's Razor](https://en.wikipedia.org/wiki/Hanlon's_razor)
 
-<v-click>
-
 #### Never attribute to malice that which is adequately explained by stupidity
-
-</v-click>
