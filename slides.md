@@ -144,6 +144,12 @@ And so should you.
 - Mostly Transparent
 - `git` is becoming an attack vector
 
+<v-click>
+
+**We need to build critical mass to enable ecosystem-wide validations**
+
+</v-click>
+
 ---
 hideInToc: true
 layout: end
